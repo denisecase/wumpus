@@ -1,0 +1,390 @@
+﻿namespace WumpusAgentGame
+{
+    partial class Settings
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnPlay = new System.Windows.Forms.Button();
+            this.txtXY = new System.Windows.Forms.TextBox();
+            this.picTitle = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rdoCustom = new System.Windows.Forms.RadioButton();
+            this.rdoLarge = new System.Windows.Forms.RadioButton();
+            this.rdoMed = new System.Windows.Forms.RadioButton();
+            this.rdoSmall = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtLearningTrials = new System.Windows.Forms.TextBox();
+            this.lblLearningTrials = new System.Windows.Forms.Label();
+            this.chkQLearning = new System.Windows.Forms.CheckBox();
+            this.chkAutoPlay = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtpitHigher = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtpitLower = new System.Windows.Forms.TextBox();
+            this.txtGold = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtWumpus = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.chkVisible = new System.Windows.Forms.CheckBox();
+            this.SEED = new System.Windows.Forms.Label();
+            this.btnQuit = new System.Windows.Forms.Button();
+            this.txtSeed = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picTitle)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // btnPlay
+            // 
+            this.btnPlay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPlay.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnPlay.Location = new System.Drawing.Point(676, 431);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(75, 23);
+            this.btnPlay.TabIndex = 5;
+            this.btnPlay.Text = "Play";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            // 
+            // txtXY
+            // 
+            this.txtXY.Enabled = false;
+            this.txtXY.Location = new System.Drawing.Point(66, 87);
+            this.txtXY.Name = "txtXY";
+            this.txtXY.Size = new System.Drawing.Size(40, 20);
+            this.txtXY.TabIndex = 4;
+            this.txtXY.Text = "20";
+            this.txtXY.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // picTitle
+            // 
+            this.picTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.picTitle.Location = new System.Drawing.Point(12, 12);
+            this.picTitle.Name = "picTitle";
+            this.picTitle.Size = new System.Drawing.Size(739, 146);
+            this.picTitle.TabIndex = 3;
+            this.picTitle.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.txtXY);
+            this.groupBox1.Controls.Add(this.rdoCustom);
+            this.groupBox1.Controls.Add(this.rdoLarge);
+            this.groupBox1.Controls.Add(this.rdoMed);
+            this.groupBox1.Controls.Add(this.rdoSmall);
+            this.groupBox1.Location = new System.Drawing.Point(12, 164);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(739, 121);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Game Settings";
+            // 
+            // rdoCustom
+            // 
+            this.rdoCustom.AutoSize = true;
+            this.rdoCustom.Location = new System.Drawing.Point(6, 88);
+            this.rdoCustom.Name = "rdoCustom";
+            this.rdoCustom.Size = new System.Drawing.Size(60, 17);
+            this.rdoCustom.TabIndex = 3;
+            this.rdoCustom.Text = "Custom";
+            this.rdoCustom.UseVisualStyleBackColor = true;
+            this.rdoCustom.CheckedChanged += new System.EventHandler(this.rdoCustom_CheckedChanged);
+            // 
+            // rdoLarge
+            // 
+            this.rdoLarge.AutoSize = true;
+            this.rdoLarge.Location = new System.Drawing.Point(6, 65);
+            this.rdoLarge.Name = "rdoLarge";
+            this.rdoLarge.Size = new System.Drawing.Size(90, 17);
+            this.rdoLarge.TabIndex = 2;
+            this.rdoLarge.Text = "Large (15x15)";
+            this.rdoLarge.UseVisualStyleBackColor = true;
+            // 
+            // rdoMed
+            // 
+            this.rdoMed.AutoSize = true;
+            this.rdoMed.Location = new System.Drawing.Point(6, 42);
+            this.rdoMed.Name = "rdoMed";
+            this.rdoMed.Size = new System.Drawing.Size(100, 17);
+            this.rdoMed.TabIndex = 1;
+            this.rdoMed.Text = "Medium (10x10)";
+            this.rdoMed.UseVisualStyleBackColor = true;
+            // 
+            // rdoSmall
+            // 
+            this.rdoSmall.AutoSize = true;
+            this.rdoSmall.Checked = true;
+            this.rdoSmall.Location = new System.Drawing.Point(6, 19);
+            this.rdoSmall.Name = "rdoSmall";
+            this.rdoSmall.Size = new System.Drawing.Size(76, 17);
+            this.rdoSmall.TabIndex = 0;
+            this.rdoSmall.TabStop = true;
+            this.rdoSmall.Text = "Small (5x5)";
+            this.rdoSmall.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.txtLearningTrials);
+            this.groupBox2.Controls.Add(this.lblLearningTrials);
+            this.groupBox2.Controls.Add(this.chkQLearning);
+            this.groupBox2.Controls.Add(this.chkAutoPlay);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.txtpitHigher);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.txtpitLower);
+            this.groupBox2.Controls.Add(this.txtGold);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.txtWumpus);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.chkVisible);
+            this.groupBox2.Location = new System.Drawing.Point(12, 291);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(739, 121);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Advanced Options";
+            // 
+            // txtLearningTrials
+            // 
+            this.txtLearningTrials.Location = new System.Drawing.Point(268, 16);
+            this.txtLearningTrials.Name = "txtLearningTrials";
+            this.txtLearningTrials.Size = new System.Drawing.Size(62, 20);
+            this.txtLearningTrials.TabIndex = 3;
+            this.txtLearningTrials.Tag = "20";
+            this.txtLearningTrials.Text = "20";
+            this.txtLearningTrials.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtLearningTrials.Visible = false;
+            // 
+            // lblLearningTrials
+            // 
+            this.lblLearningTrials.AutoSize = true;
+            this.lblLearningTrials.Location = new System.Drawing.Point(336, 19);
+            this.lblLearningTrials.Name = "lblLearningTrials";
+            this.lblLearningTrials.Size = new System.Drawing.Size(76, 13);
+            this.lblLearningTrials.TabIndex = 4;
+            this.lblLearningTrials.Text = "Learning Trials";
+            this.lblLearningTrials.Visible = false;
+            // 
+            // chkQLearning
+            // 
+            this.chkQLearning.AutoSize = true;
+            this.chkQLearning.Location = new System.Drawing.Point(159, 19);
+            this.chkQLearning.Name = "chkQLearning";
+            this.chkQLearning.Size = new System.Drawing.Size(103, 17);
+            this.chkQLearning.TabIndex = 2;
+            this.chkQLearning.Text = "With Q Learning";
+            this.chkQLearning.UseVisualStyleBackColor = true;
+            this.chkQLearning.CheckedChanged += new System.EventHandler(this.chkQLearning_CheckedChanged);
+            // 
+            // chkAutoPlay
+            // 
+            this.chkAutoPlay.AutoSize = true;
+            this.chkAutoPlay.Location = new System.Drawing.Point(82, 19);
+            this.chkAutoPlay.Name = "chkAutoPlay";
+            this.chkAutoPlay.Size = new System.Drawing.Size(71, 17);
+            this.chkAutoPlay.TabIndex = 1;
+            this.chkAutoPlay.Text = "Auto Play";
+            this.chkAutoPlay.UseVisualStyleBackColor = true;
+            this.chkAutoPlay.CheckedChanged += new System.EventHandler(this.chkAutoPlay_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(131, 97);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "% Pits";
+            // 
+            // txtpitHigher
+            // 
+            this.txtpitHigher.Location = new System.Drawing.Point(85, 94);
+            this.txtpitHigher.Name = "txtpitHigher";
+            this.txtpitHigher.Size = new System.Drawing.Size(40, 20);
+            this.txtpitHigher.TabIndex = 11;
+            this.txtpitHigher.Text = "15";
+            this.txtpitHigher.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(52, 97);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(27, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "% to";
+            // 
+            // txtpitLower
+            // 
+            this.txtpitLower.Location = new System.Drawing.Point(6, 94);
+            this.txtpitLower.Name = "txtpitLower";
+            this.txtpitLower.Size = new System.Drawing.Size(40, 20);
+            this.txtpitLower.TabIndex = 9;
+            this.txtpitLower.Text = "12";
+            this.txtpitLower.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtGold
+            // 
+            this.txtGold.Location = new System.Drawing.Point(6, 68);
+            this.txtGold.Name = "txtGold";
+            this.txtGold.Size = new System.Drawing.Size(40, 20);
+            this.txtGold.TabIndex = 7;
+            this.txtGold.Text = "1";
+            this.txtGold.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(52, 71);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Gold";
+            // 
+            // txtWumpus
+            // 
+            this.txtWumpus.Location = new System.Drawing.Point(6, 42);
+            this.txtWumpus.Name = "txtWumpus";
+            this.txtWumpus.Size = new System.Drawing.Size(40, 20);
+            this.txtWumpus.TabIndex = 5;
+            this.txtWumpus.Text = "1";
+            this.txtWumpus.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(52, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Wumpus\'";
+            // 
+            // chkVisible
+            // 
+            this.chkVisible.AutoSize = true;
+            this.chkVisible.Location = new System.Drawing.Point(6, 19);
+            this.chkVisible.Name = "chkVisible";
+            this.chkVisible.Size = new System.Drawing.Size(70, 17);
+            this.chkVisible.TabIndex = 0;
+            this.chkVisible.Text = "All Visible";
+            this.chkVisible.UseVisualStyleBackColor = true;
+            this.chkVisible.CheckedChanged += new System.EventHandler(this.chkVisible_CheckedChanged);
+            // 
+            // SEED
+            // 
+            this.SEED.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.SEED.AutoSize = true;
+            this.SEED.Location = new System.Drawing.Point(588, 436);
+            this.SEED.Name = "SEED";
+            this.SEED.Size = new System.Drawing.Size(36, 13);
+            this.SEED.TabIndex = 3;
+            this.SEED.Text = "SEED";
+            // 
+            // btnQuit
+            // 
+            this.btnQuit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnQuit.DialogResult = System.Windows.Forms.DialogResult.Abort;
+            this.btnQuit.Location = new System.Drawing.Point(490, 431);
+            this.btnQuit.Name = "btnQuit";
+            this.btnQuit.Size = new System.Drawing.Size(75, 23);
+            this.btnQuit.TabIndex = 2;
+            this.btnQuit.Text = "&Quit";
+            this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
+            // 
+            // txtSeed
+            // 
+            this.txtSeed.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSeed.Location = new System.Drawing.Point(630, 433);
+            this.txtSeed.Name = "txtSeed";
+            this.txtSeed.Size = new System.Drawing.Size(40, 20);
+            this.txtSeed.TabIndex = 4;
+            this.txtSeed.Tag = "";
+            this.txtSeed.Text = "893";
+            this.txtSeed.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // Settings
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(763, 466);
+            this.Controls.Add(this.btnQuit);
+            this.Controls.Add(this.SEED);
+            this.Controls.Add(this.txtSeed);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.picTitle);
+            this.Controls.Add(this.btnPlay);
+            this.MinimumSize = new System.Drawing.Size(500, 500);
+            this.Name = "Settings";
+            this.Text = "Settings";
+            this.Load += new System.EventHandler(this.Settings_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picTitle)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnPlay;
+        private System.Windows.Forms.TextBox txtXY;
+        private System.Windows.Forms.PictureBox picTitle;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.RadioButton rdoCustom;
+        private System.Windows.Forms.RadioButton rdoLarge;
+        private System.Windows.Forms.RadioButton rdoMed;
+        private System.Windows.Forms.RadioButton rdoSmall;
+        private System.Windows.Forms.CheckBox chkVisible;
+        private System.Windows.Forms.TextBox txtpitHigher;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtpitLower;
+        private System.Windows.Forms.TextBox txtGold;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtWumpus;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label SEED;
+        private System.Windows.Forms.CheckBox chkAutoPlay;
+        private System.Windows.Forms.TextBox txtLearningTrials;
+        private System.Windows.Forms.Label lblLearningTrials;
+        private System.Windows.Forms.CheckBox chkQLearning;
+        private System.Windows.Forms.Button btnQuit;
+        private System.Windows.Forms.TextBox txtSeed;
+    }
+}
